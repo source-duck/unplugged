@@ -87,6 +87,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+    /* -------------------- Base Header - Footer Styles -------------------- */
+header {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
