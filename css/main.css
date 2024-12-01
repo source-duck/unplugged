@@ -100,12 +100,14 @@ textarea {
   outline: 3px dotted red;
   width: 90%;
   margin: 50px 0;
+  margin: 50px 0;
 }
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
   padding: 15px 0;
 }
 
@@ -167,6 +169,7 @@ footer .social-icons p {
 footer .copyright {
   margin: 20px 0;
 }
+
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
@@ -241,6 +244,10 @@ aside {
   display: flex;
   justify-content: center;
 }
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
 
 .contact-content p {
   margin: 0;
@@ -250,6 +257,10 @@ aside {
      FAQ Page
      ========================================================================== */
 
+.faq {
+  display: flex;
+  justify-content: center;
+}
 .faq {
   display: flex;
   justify-content: center;
@@ -509,6 +520,7 @@ aside {
      ========================================================================== */
 
 @media print {
+
 
   *,
   *:before,
