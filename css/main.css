@@ -244,6 +244,7 @@ aside {
   display: flex;
   justify-content: center;
 }
+
 .contact-section {
   display: flex;
   justify-content: center;
@@ -261,6 +262,7 @@ aside {
   display: flex;
   justify-content: center;
 }
+
 .faq {
   display: flex;
   justify-content: center;
@@ -438,8 +440,6 @@ aside {
   }
 
   .reviews article div {
-    display: flex;
-    justify-content: space-between;
     width: 49%;
   }
 
@@ -506,11 +506,60 @@ aside {
 }
 
 @media only screen and (min-width: 1200px) {
+  /*Desktop styles here */
 
-  /* Desktop styles here */
+  header {
+    padding: 15px 0;
+  }
+
   .content-wrapper {
     max-width: 960px;
   }
+
+  /* Hero */
+  .hero-area h1 {
+    width: 70%;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Features */
+  .features h2 {
+    width: 89%;
+  }
+
+  .features article {
+    flex-basis: 31%;
+  }
+
+  /* Reviews */
+  .reviews article div {
+    width: 42%;
+  }
+
+  /* ==========================================================================
+       About Page
+       ========================================================================== */
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
+
+  /* ==========================================================================
+       FAQ Page
+       ========================================================================== */
+  .faq h2 {
+    width: 100%;
+  }
+
 }
 
 /* ==========================================================================
