@@ -93,12 +93,11 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* =========================================================================
+/* ==========================================================================
      Author's custom styles
-=========================================================================*/
+     ========================================================================== */
 
 /* General Styles */
-
 html {
   font-size: 1rem;
 }
@@ -108,6 +107,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #e2e3ed;
   text-align: left;
+  background-color: #202322;
 }
 
 ul,
@@ -126,6 +126,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -153,9 +154,7 @@ address {
   font-style: normal;
 }
 
-
 .content-wrapper {
-  outline: 3px dotted purple;
   width: 90%;
   margin: 50px 0;
 }
@@ -312,9 +311,7 @@ input[type=button] {
   justify-content: center;
 }
 
-.features h2 {
-  margin-bottom: 60px;
-}
+.features h2 {}
 
 .features i {
   font-size: 3.75em;
@@ -589,6 +586,10 @@ input[type=button] {
     margin-bottom: 20px;
   }
 
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -598,6 +599,10 @@ input[type=button] {
 
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
@@ -648,6 +653,11 @@ input[type=button] {
     line-height: 1.285;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -660,7 +670,7 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 20px
+    padding-top: 20px;
   }
 
   .mission-content p {
@@ -781,6 +791,11 @@ input[type=button] {
   /* ==========================================================================
        About Page
        ========================================================================== */
+
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
